@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import { Button } from 'reactstrap';
+import MessageComp from '../components/messageComp.js';
+import Criteria from '../components/criteriaSelection.js';
 
 class App extends Component {
   render() {
@@ -15,6 +17,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <MessageComp />
+        <Criteria />
       </div>
     );
   }
