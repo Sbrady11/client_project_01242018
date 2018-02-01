@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 class MessageComp extends React.Component {
